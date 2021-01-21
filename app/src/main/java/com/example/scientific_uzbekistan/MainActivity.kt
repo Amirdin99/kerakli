@@ -64,14 +64,8 @@ class MainActivity : AppCompatActivity(), AdapterScientific.OnItemClickListener 
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == R.id.item) {
-            val dialog = AlertDialog.Builder(this).create()
-            dialog.setTitle("additional")
-            dialog.setButton(
-                AlertDialog.BUTTON_NEUTRAL, "yes", { dialog, which ->
-                    val intent = Intent(this, MainActivity4::class.java)
-                    startActivity(intent)
-                }
-            )
+            val intent=Intent(this,MainActivity3::class.java)
+            startActivity(intent)
         }
         return super.onOptionsItemSelected(item)
     }
@@ -175,4 +169,6 @@ class MainActivity : AppCompatActivity(), AdapterScientific.OnItemClickListener 
 
 
     }
+
+
 }

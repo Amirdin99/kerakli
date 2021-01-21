@@ -29,6 +29,7 @@
                     android:layout_margin="10dp"
                     android:padding="5dp"
                     android:text="All Issues"
+                    android:textColor="#000000"
                     android:textSize="24sp" />
 
                 <TextView
@@ -38,6 +39,7 @@
                     android:layout_margin="10dp"
                     android:padding="5dp"
                     android:text="Downloaded"
+                    android:textColor="#000000"
                     android:textSize="24sp" />
 
                 <TextView
@@ -46,6 +48,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:padding="5dp"
+                    android:textColor="#000000"
                     android:text="Scientific Uzbekistan Magazine"
                     android:textSize="24sp" />
 
@@ -57,6 +60,7 @@
                     android:layout_margin="10dp"
                     android:padding="5dp"
                     android:text="Mind"
+                    android:textColor="#000000"
                     android:textSize="24sp" />
 
                 <TextView
@@ -66,6 +70,7 @@
                     android:layout_margin="10dp"
                     android:padding="5dp"
                     android:text="Health Medicine"
+                    android:textColor="#000000"
                     android:textSize="24sp" />
 
                 <TextView
@@ -75,6 +80,7 @@
                     android:layout_margin="10dp"
                     android:padding="5dp"
                     android:text="Space &amp; Physics"
+                    android:textColor="#000000"
                     android:textSize="24sp" />
 
                 <TextView
@@ -83,6 +89,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:padding="5dp"
+                    android:textColor="#000000"
                     android:text="Latest News"
                     android:textSize="24sp" />
 
