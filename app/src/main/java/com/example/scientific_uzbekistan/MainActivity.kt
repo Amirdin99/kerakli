@@ -75,6 +75,7 @@ class MainActivity : AppCompatActivity(), AdapterScientific.OnItemClickListener 
         }
         return super.onOptionsItemSelected(item)
     }
+
     private fun loadData() {
 
         data.add(Birinchi(R.drawable.books, "January 2021", "5$"))
