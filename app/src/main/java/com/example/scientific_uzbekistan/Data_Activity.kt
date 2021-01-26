@@ -18,7 +18,7 @@ class Data_Activity : AppCompatActivity() {
 
         val texts: String = bundle.getString("narxi").toString()
 
-        price.text = texts
+        price.setText(texts)
 
     }
 }
